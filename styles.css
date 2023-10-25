@@ -1,9 +1,9 @@
 body {
-background: #000000;
+background: black;
 font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-color: #ffffff;
+color: white;
 text-align: center;
 }
 .assign {
@@ -17,5 +17,5 @@ width: 200px;
 padding: 10px;
 }
 p {
-  color: #ffffff;
+  color: white;
 }

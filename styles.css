@@ -11,6 +11,10 @@ display: flex;
 padding: 10px;
 margin: 10px;
 background: black;
+width: 20%;
+box-shadow: 8px 8px black;
+display: block; /* instead of flex */
+border-radius: 20px; /* set last assignment */
 }
 .assign img {
 width: 200px;

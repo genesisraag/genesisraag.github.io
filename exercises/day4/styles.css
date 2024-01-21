@@ -58,7 +58,7 @@ h1 {
 
 .columns img {
     max-width: 80%;
-    /*for centering*/
+    
     display: block;
     margin: auto;
 }

@@ -3,6 +3,7 @@ body {
     background: wheat;
     color: #000080;
     font-weight: bold;
+    align-items: center;
 }
 
 
@@ -34,15 +35,23 @@ a {
    text-align: center;
    width: 300px;
    margin: 20px;
+   padding: 20px;
 }
 
+.assignment img {
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+}
 
 @media only screen and (min-width: 900px) {
 .assignment{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    
     }
 
 .assignment li {
@@ -51,6 +60,19 @@ a {
 
 #main-content ul {
     display: flex;
+    margin: 0;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+
+#main-content li {
+    margin: 0;
+    padding: 0;
+}
+
+.assignment img {
+    margin: 0;
+    padding: 10px;
     
 }
 

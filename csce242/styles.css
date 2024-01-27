@@ -46,6 +46,17 @@ footer {
     text-align: center;
 }
 
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-list .assignment {
+    flex: 1;
+    margin: 20px;
+}
+
 @media only screen and (min-width: 900px) {
 .assignment{
     display: flex;

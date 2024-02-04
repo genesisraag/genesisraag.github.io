@@ -1,0 +1,178 @@
+body {
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+#profile {
+    text-align: right;
+    padding-right: 200px;
+    font-size: 18px;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav a { 
+    text-decoration: none;
+    color: white;
+}
+
+nav li.active a {
+    border-bottom: 2px solid blue;
+}
+
+#about h2 {
+    font-size: 30px;
+}
+
+#about p {
+    font-size: 20px;
+}
+
+hr {
+    height: 1px;
+    width: 95%;
+    border-top: 1px solid black;
+}
+
+footer a {
+    color:white;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+#contact {
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+#social {
+  text-align: right;
+  width: 100%;
+}
+
+#social a {
+    font-size: 30px;
+    padding-right: 40px;
+}
+
+#copyright {
+    font-size: 20px;
+}
+
+.bullet ul {
+    list-style-position: outside;
+    display: block; 
+    margin: 0; 
+    padding: 0; 
+    
+}
+
+.bullet li {
+    list-style-position: outside;
+    margin-bottom: 10px; 
+    text-align: left;
+    padding-left: 100px;
+    font-size: 30px;
+}
+
+
+.workout-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bullet {
+    flex: 1; 
+    padding-top: 20px;
+}
+
+#image {
+    flex: 1; 
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.success {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.response{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 60px;
+}
+#image-success {
+    margin-left: 77%;
+}
+
+#bullet-discussion li {
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+#bullet-discussion a {
+    text-decoration: none;
+    color: white;
+}
+
+#bullet-discussion a:hover {
+    color: blue;
+}
+@media only screen and (min-width: 900px) {
+.featured {
+    display: flex;
+    margin: 0 auto;
+   justify-content: space-around;
+   flex-wrap: wrap;
+    
+}
+
+.article {
+    width: 300px;
+    margin: 20px;
+}
+
+.article p{
+    font-size: 20px;
+    
+}
+.featured a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.featured a:hover {
+    color: blue;
+}
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.container .article {
+    width: 300px;
+    margin: 20px;
+}
+
+}
+

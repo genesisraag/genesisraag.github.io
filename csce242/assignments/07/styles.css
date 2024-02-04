@@ -1,0 +1,58 @@
+body {
+    background: tan;
+    text-align: center;
+    
+}
+
+.column {
+    border: 1px solid black;
+    margin: 50px;
+    flex: 1;
+    height: 600px;
+    padding: 20px;
+    background-color: slategray;
+    color: white;
+}
+.column h3 {
+    font-size: 29px;
+}
+
+.column p {
+    font-size: 25px;
+    text-align: left;
+}
+.stars {
+    background-color: #333;
+    border: 1px solid black;
+    margin: 50px;
+    flex: 1;
+    height: 600px;
+    padding: 20px;
+    color: white;
+}
+
+#rotating-image {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    transform: rotate(360deg);
+}
+
+.stars {
+    position: relative;
+    background-color: #333;
+    border: 1px solid black;
+    margin: 50px;
+    flex: 1;
+    height: 600px;
+    padding: 20px;
+    color: white;
+    overflow: hidden; /* Ensures stars don't overflow */
+}
+
+@media only screen and (min-width: 900px) {
+    .container {
+        display: flex;
+    }
+
+}

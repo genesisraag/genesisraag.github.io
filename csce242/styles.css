@@ -6,8 +6,6 @@ body {
     align-items: center;
 }
 
-
-
  h1, h2 {
     text-align: center;
 }
@@ -45,6 +43,11 @@ a {
 footer {
     text-align: center;
 }
+.assignment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
 
 .project-list {
     display: flex;
@@ -60,13 +63,12 @@ footer {
 @media only screen and (min-width: 900px) {
 .assignment{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    flex-wrap: wrap;
+    justify-content: center;
     }
 
 .assignment li {
-    flex: 1;
+    flex: 33%;
 }
 
 #main-content ul {
@@ -86,7 +88,5 @@ footer {
     padding: 10px;
     
 }
-
-
 
 }

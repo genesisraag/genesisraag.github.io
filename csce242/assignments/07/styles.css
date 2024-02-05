@@ -47,7 +47,28 @@ body {
     height: 600px;
     padding: 20px;
     color: white;
-    overflow: hidden; /* Ensures stars don't overflow */
+}
+
+.star {
+    display: inline-block;
+      width: 0;
+      height: 0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-bottom: 50px solid yellow; 
+      position: relative;
+}
+
+.star::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid yellow; 
+    position: absolute;
+    top: 15px;
+    left: -25px;
 }
 
 @media only screen and (min-width: 900px) {

@@ -1,0 +1,49 @@
+:root {
+    --funds: 50%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightgray;
+}
+
+/* Structure */
+
+#content {
+  background: #fff;
+  padding: 5px;
+  width: 80%;
+  /* center horizontally */
+  margin: auto;
+  border-radius: 5px;
+}
+
+.columns section {
+  padding: 10px;
+}
+
+/* Typography */
+
+h1 {
+  color: darkslategray;
+}
+
+.error {
+    color: red;
+}
+
+#thermometer {
+    background:linear-gradient(10deg, red var(--funds), white var(--funds, 100%));
+}
+
+/* Larger Resolutions */
+
+@media only screen and (min-width: 600px) {
+  .columns {
+    display: flex;
+  }
+
+  .one {
+    flex: 1;
+  }
+}

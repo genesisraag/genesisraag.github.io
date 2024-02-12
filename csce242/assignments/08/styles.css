@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+}
+.column {
+    border: 1px solid black;
+    margin: 50px;
+    flex: 1;
+    height: 600px;
+    padding: 20px;
+    background-color: slategray;
+    color: white;
+}
+
+.column h3 {
+    font-size: 29px;
+}
+
+
+.column ul {
+    padding: 0;
+}
+
+.column li {
+    list-style-position: inside;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.column img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#exercise1Section {
+    display: block;
+}
+
+#exercise2Section {
+    display: none;
+}
+
+#exercise1, #exercise2 {
+    color: white;
+    text-decoration: none;
+}
+
+#exercise1:hover,
+#exercise2:hover {
+    color: red;
+}
+
+#menuItems {
+    display: none; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#menuItems li {
+    display: block;
+}
+
+#toggleArrow {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+#toggleExercise1, #toggleExercise2 {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+#toggleExercise1:hover,
+#toggleExercise2:hover {
+    color: red; 
+}
+
+#menuItems a:hover {
+    cursor: pointer;
+}
+@media only screen and (min-width: 900px) {
+    .container {
+        display: flex;
+    }
+
+    #toggleArrow {
+        display: none;
+    }
+
+    #menuItems {
+        display: inline-flex
+    }
+    
+    .column ul li:not(:last-child)::after {
+        content: " |";
+        margin-left: 5px;  
+    }
+    
+    #menuItems li:not(:last-child)::after {
+        content: " |";
+        margin-left: 5px;  
+    }
+
+
+
+}

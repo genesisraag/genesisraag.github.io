@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+.column {
+    border: 1px solid black;
+    margin: 50px;
+    flex: 1;
+    height: 600px;
+    padding: 20px;
+    background-color: slategray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.column.yoga-fun h3 {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.column.yoga-fun{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#soccerBall {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.imageDescription {
+    display: none;
+    margin-left: 10px; 
+    font-size: 30px;
+    
+}
+
+@media only screen and (min-width: 900px) {
+    .container {
+        display: flex;
+    }
+    
+}

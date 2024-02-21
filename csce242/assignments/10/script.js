@@ -1,5 +1,5 @@
 const advertisements = [
-    "The variety with in these images is outstanding",
+    "The variety within these images is outstanding",
     "Each image has been edited by our superior staff",
     "Discover the beauty of nature with our stunning visuals",
     "Unlock your creativity with our curated image collection",

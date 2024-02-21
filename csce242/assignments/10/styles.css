@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+#advertisementText {
+    font-size: 30px;
+}
+
+#ad-banner{
+    border: 2px solid black;
+    margin: 0 50px;
+    flex: 1;
+    
+    background-color: slategray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.column {
+    border: 2px solid black;
+    margin: 0px 50px;
+    flex: 1;
+    height: auto;
+    padding: 20px;
+    background-color: slategray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+hr {
+    border: 1px solid black; 
+    width: 100%;
+}
+    
+
+
+@media only screen and (min-width: 900px) {
+    .container {
+        display: flex;
+    }
+    
+}

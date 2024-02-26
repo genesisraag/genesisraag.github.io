@@ -96,11 +96,13 @@
   #social {
     text-align: right;
     width: 100%;
+    display: flex; /* Add this line to make it a flex container */
+    align-items: center;
   }
   
   #social a {
     font-size: 30px;
-    padding-right: 40px;
+    margin-left: 40px;
   }
   
   #copyright {
@@ -195,13 +197,18 @@
     color: var(--bullet-link-hover-color);
   }
 
-   #workout-summary p{
+  #workout-summary p{
     font-size: 35px;
     padding-left: 50px;
     padding-right: 50px;
-   }
+  }
    
-   #hamburger {
+  #nav-items {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  #hamburger {
     font-size: 20px;
     background: none;
     border: none;
@@ -219,13 +226,28 @@
 
  .article .image-container {
   background-color: var(--image-background-color); 
-  padding: 10px; 
- 
+  padding: 10px;
+  width: 300px; 
+  margin: 0 auto; 
+  
 }
 
 .article img {
-  max-width: 100%; 
+  max-width: 100%;
 }
+.article{
+  text-align: center;
+}
+
+.featured a:hover {
+  color: var(--nav-link-hover-color);
+}
+
+.featured a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+}
+
   @media only screen and (min-width: 900px) {
     .featured {
       display: flex;
@@ -267,20 +289,33 @@
       text-align: center;
     }
   
-    ul#nav-items {
-      display: flex;
-      justify-content: center;
-    }
+    
+    #nav-items {
+      display: flex; /* Display horizontally on larger screens */
+     flex-direction: row;
+  }
+
   
     nav li {
-      margin: 0;
+      display: inline-block;
+      margin: 0 20px;
+      text-align: center; 
     }
     
    #hamburger {
     display: none;
    }
 
- 
+   .article .image-container {
+    background-color: var(--image-background-color); 
+    padding: 10px;
+  
+  }
+  
+  .article img {
+    max-width: 100%;
+  }
+   
    
   }
   

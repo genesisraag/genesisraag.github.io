@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: ivory;
+}
+
+.container {
+    background-color: coral; 
+    padding: 20px;
+    margin: 10px;
+}
+header, footer {
+    text-align: center;
+}
+
+.house-container {
+    display: flex;
+    background-color: slategray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.house-image {
+    width: 30%;
+    height: 311px;
+    object-fit: cover;
+}
+
+.house-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.floor-plan-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.floor-plan {
+    width: 50%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 10px 10px 0;
+    text-align: center;
+}
+
+.floor-plan img {
+    width: 100%;
+    height: auto;
+}
+
+.house-details p span.bold-text {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+    .house-container {
+        flex-direction: column; 
+        margin-bottom: 10px;
+    }
+
+    .house-image {
+        width: 100%; 
+        height: auto;
+    }
+
+    .floor-plan-container {
+        flex-direction: column; 
+    }
+
+    .floor-plan {
+        width: 100%; 
+        margin: 0 0 10px 0; 
+    }
+}

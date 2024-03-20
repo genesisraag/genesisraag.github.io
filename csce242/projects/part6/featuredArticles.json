@@ -1,0 +1,82 @@
+[
+    {
+        "_id": 1,
+        "img_name": "articlepic1.jpg",
+        "title": "13 Winter Workout Tips for Exercising Outdoors No Matter the Weather",
+        "source": "Everyday Health",
+        "link": "https://www.everydayhealth.com/healthy-living/fitness/easy-winter-exercise-tips-help-you-stay-fit/",
+        "categories": ["Fitness", "Winter Workouts", "Exercise Tips"],
+        "description": "Stay fit during winter with these easy exercise tips that help you stay active no matter the weather.",
+        "date_published": "2024-01-29"
+    },
+    {
+        "_id": 2,
+        "img_name": "articlepic3.jpg",
+        "title": "How to Get Started With HIIT Workouts",
+        "source": "Everyday Health",
+        "link": "https://www.everydayhealth.com/fitness/how-to-get-started-with-hiit-workouts/",
+        "categories": ["Fitness", "HIIT Workouts", "Exercise"],
+        "description": "Learn how to start High-Intensity Interval Training (HIIT) workouts for effective fitness routines.",
+        "date_published": "2024-01-24"
+    },
+    {
+        "_id": 3,
+        "img_name": "articlepic2.jpg",
+        "title": "Boost in Cardio Fitness May Cut Risk of Prostate Cancer",
+        "source": "Yahoo News",
+        "link": "https://news.yahoo.com/boost-cardio-fitness-may-cut-165428335.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuYmluZy5jb20v&guce_referrer_sig=AQAAAAq-VNRWvASLa-hnSFo8OvIxaGiimmGvjbuGGDwCJWU9P1R_K0W79s2b8SlEShRJQ48YQ-LWOh6Op_-BH9yzOMy5Ql9IYLHDe6GqhD9F0CUZkxjwyWtY7Fngloj7Ty9iQVxiPDPXSwSxrcERouh4kHhxccHlMwJTZFY7EpndXspP",
+        "categories": ["Fitness", "Cardio", "Health"],
+        "description": "Discover how improving cardio fitness levels may reduce the risk of prostate cancer.",
+        "date_published": "2024-01-31"
+    },
+    {
+        "_id": 4,
+        "img_name": "articlepic4.jpg",
+        "title": "Why Exercise Is More Important Than Weight Loss for a Longer Life",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2021/09/29/well/move/exercise-weight-loss-longer-life.html",
+        "categories": ["Fitness", "Health", "Longevity"],
+        "description": "Discover the profound impact of prioritizing exercise over weight loss for a longer, healthier life.",
+        "date_published": "2021-10-05"
+    },
+    {
+        "_id": 5,
+        "img_name": "articlepic5.jpg",
+        "title": "Stepping up activity if winter slowed you down",
+        "source": "Harvard Health Letter",
+        "link": "https://www.health.harvard.edu/blog/stepping-up-activity-when-winter-slows-you-down-202403043021",
+        "categories": ["Fitness", "Winter Exercise", "Health Tips"],
+        "description": "Discover effective ways to boost your activity levels post-winter slump, enhancing overall fitness and well-being.",
+        "date_published": "2024-03-04"
+    },
+    {
+        "_id": 6,
+        "img_name": "articlepic6.jpg",
+        "title": "Plyometrics: Health Benefits, How to Get Started, and How to Get Better",
+        "source": "Everyday Health",
+        "link": "https://www.everydayhealth.com/fitness/plyometrics/guide/",
+        "categories":["Fitness", "Plyometrics", "Health"],
+        "description": "Explore the world of plyometrics, uncovering its health benefits, beginner's guide, and tips for improvement in this comprehensive article from Everyday Health.",
+        "date_published": "2024-03-14"
+    },
+    {
+        "_id": 7,
+        "img_name": "articlepic7.jpg",
+        "title": "Why is physical activity so important for health and well-being?",
+        "source": "American Heart Association",
+        "link": "https://www.heart.org/en/healthy-living/fitness/fitness-basics/why-is-physical-activity-so-important-for-health-and-wellbeing",
+        "categories": ["Fitness", "Health", "Well-being"],
+        "description": "Delve into the significance of physical activity for both health and well-being with insights from the American Heart Association, highlighting the crucial role of exercise in maintaining overall wellness.",
+        "date_published": "2017-01-14"
+    },
+    {
+        "_id": 8,
+        "img_name": "articlepic8.jpg",
+        "title": "Hitting the activity mark",
+        "source":"Harvard Men's Health Watch",
+        "link": "https://www.health.harvard.edu/exercise-and-fitness/hitting-the-activity-mark",
+        "categories": ["Fitness", "Exercise", "Health"],
+        "description": "Explore strategies for meeting recommended activity levels and optimizing fitness in this insightful article from Harvard Men's Health Watch.",
+        "date_published": "2024-03-01"
+    }
+]

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <!--Genesis Ragland-->
+    <head>
+    <title>Fit Vibes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    </head>
+   
+        <header>
+            <p id="profile">gragland</p>
+            <h1>Fit Vibes</h1>
+            <button id="hamburger">&#9776;</button>
+            <nav>
+                <ul id="nav-items" class="hide-small">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="workout.html">Workout Routines</a></li>
+                    <li><a href="nutrition.html">Nutrition Tips</a></li>
+                    <li><a href="success.html">Success Stories</a></li>
+                    <li><a href="community.html">Community Forum</a></li>
+                </ul>
+            </nav>
+        </header>
+        <body>
+        <main>
+            <h2>Featured Articles</h2>
+            <hr>
+            <div class="featured" id="featured-articles"></div>
+            
+            <h2>Featured Videos</h2>
+            <hr>
+            <iframe class="first-iframe" src="https://www.youtube.com/embed/SMsH0v-qpYM?si=PD7v0ZOg8sYGZRFN"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+            <iframe class="second-iframe" width="560" height="315" src="https://www.youtube.com/embed/TDTR9iNWW_0?si=vAmAr3UHpvQKmVM8"
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+            <hr>
+
+            <h2>Suggest an Article!</h2>
+            <form id="add-item-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="source">Source:</label>
+                <input type="text" id="source" name="source" required>
+                
+                <label for="link">Link:</label>
+                <input type="url" id="link" name="link" required>
+                
+                <label for="categories">Categories:</label>
+                <input type="text" id="categories" name="categories" required>
+                
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+                
+                <label for="date_published">Date Published:</label>
+                <input type="date" id="date_published" name="date_published" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+            
+            <div id="success-message" style="display: none;">Item added successfully!</div>
+    
+            <ul id="item-list"></ul>
+
+            <div id="about">
+                <h2>About Us</h2>
+                <hr>
+                <p>Welcome to Fit Vibes, where we believe that fitness is not just a routine; it's a way of life. At Fit Vibes, we're more than just a fitness website we're a community dedicated to inspiring and 
+                    empowering individuals on their journey to a healthier and happier life. Our mission is to cultivate a positive and energetic atmosphere that encourages everyone, regardless of their fitness level,
+                     to embrace the joy of movement and the benefits it brings. We provide a wealth of resources, from expert workout routines and nutrition tips to motivational articles, all designed to support you 
+                     in achieving your fitness goals. Join us as we embark on this exhilarating adventure together, creating a world where fitness is not just a goal, but a vibrant and uplifting lifestyle. Let's 
+                     build a community that radiates Fit Vibes!</p>
+            </div>
+            <hr>
+            <section class="info-section">
+                <h2>Contact Us!</h2>
+                <div class="columns">
+                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input
+                    type="hidden"
+                    name="access_key"
+                    value="e250251c-3807-4bad-8aa2-3b9393f75a30"
+                    />
+            
+                        <p>
+                            <label for="name">Name:</label>
+                            <input id="name" type="text" placeholder="First and Last" name="name" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </p>
+                        <input
+                        type="hidden"
+                        name="redirect"
+                        value="https://web3forms.com/success"
+                        />
+                        <input
+                        type="hidden"
+                        name="subject"
+                        value="Contact from FitVibes Website"
+                        />
+          <input type="hidden" name="from_name" value="My Website" />
+                        <p>
+                            <button type="submit">Submit Form</button>
+                        </p>
+                        <p id="result"></p>
+                    </form>
+                </div>
+            </section>    
+        </main>
+       <hr>
+       <footer>
+        <div id="contact">
+            <p>Contact Us: <a href=Email:info@fitvibes.com>info@fitvibes.com</a></p>
+            <p>Phone: (555) 123-4567</p>
+        </div>
+        <div id="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </div>
+        <div id="copyright">
+            <p>&copy;Fit Vibes</p>
+        </div> 
+       </footer>
+       <script src="contactme.js"></script>
+       <script src="form.js"></script>
+       <script src="script.js"></script>
+    </body>
+</html>
